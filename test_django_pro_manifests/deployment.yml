@@ -20,6 +20,6 @@ spec:
     spec:
       containers:
       - name: django-app
-        image: stelabiju/django-cicd:replaceImageTag
+        image: stelabiju/django-cicd:11
         ports:
         - containerPort: 8000
